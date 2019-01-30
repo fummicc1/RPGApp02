@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D350984F220180D3004B5C35 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350984E220180D3004B5C35 /* Player.swift */; };
+		D3570D5E21EB220A00E795F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D5D21EB220A00E795F3 /* AppDelegate.swift */; };
+		D3570D6021EB220A00E795F3 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D5F21EB220A00E795F3 /* LobbyViewController.swift */; };
+		D3570D6321EB220A00E795F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3570D6121EB220A00E795F3 /* Main.storyboard */; };
+		D3570D6521EB220A00E795F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3570D6421EB220A00E795F3 /* Assets.xcassets */; };
+		D3570D6821EB220A00E795F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3570D6621EB220A00E795F3 /* LaunchScreen.storyboard */; };
+		D3570D7321EB220B00E795F3 /* Kobashun_RPGAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D7221EB220B00E795F3 /* Kobashun_RPGAppTests.swift */; };
+		D3570D7E21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D7D21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift */; };
+		D3FEB5D521EE05B10075F188 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEB5D421EE05B10075F188 /* BattleViewController.swift */; };
+		D3FEB5D921EE08420075F188 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEB5D821EE08420075F188 /* Enemy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3570D6F21EB220B00E795F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3570D5221EB220A00E795F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3570D5921EB220A00E795F3;
+			remoteInfo = Kobashun_RPGApp;
+		};
+		D3570D7A21EB220B00E795F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3570D5221EB220A00E795F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3570D5921EB220A00E795F3;
+			remoteInfo = Kobashun_RPGApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D350984E220180D3004B5C35 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D3570D5A21EB220A00E795F3 /* Kobashun_RPGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kobashun_RPGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3570D5D21EB220A00E795F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3570D5F21EB220A00E795F3 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		D3570D6221EB220A00E795F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3570D6421EB220A00E795F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3570D6721EB220A00E795F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3570D6921EB220A00E795F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3570D6E21EB220B00E795F3 /* Kobashun_RPGAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kobashun_RPGAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3570D7221EB220B00E795F3 /* Kobashun_RPGAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kobashun_RPGAppTests.swift; sourceTree = "<group>"; };
+		D3570D7421EB220B00E795F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3570D7921EB220B00E795F3 /* Kobashun_RPGAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kobashun_RPGAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3570D7D21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kobashun_RPGAppUITests.swift; sourceTree = "<group>"; };
+		D3570D7F21EB220B00E795F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FEB5D421EE05B10075F188 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		D3FEB5D821EE08420075F188 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3570D5721EB220A00E795F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D6B21EB220B00E795F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D7621EB220B00E795F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3570D5121EB220A00E795F3 = {
+			isa = PBXGroup;
+			children = (
+				D3570D5C21EB220A00E795F3 /* Kobashun_RPGApp */,
+				D3570D7121EB220B00E795F3 /* Kobashun_RPGAppTests */,
+				D3570D7C21EB220B00E795F3 /* Kobashun_RPGAppUITests */,
+				D3570D5B21EB220A00E795F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3570D5B21EB220A00E795F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3570D5A21EB220A00E795F3 /* Kobashun_RPGApp.app */,
+				D3570D6E21EB220B00E795F3 /* Kobashun_RPGAppTests.xctest */,
+				D3570D7921EB220B00E795F3 /* Kobashun_RPGAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3570D5C21EB220A00E795F3 /* Kobashun_RPGApp */ = {
+			isa = PBXGroup;
+			children = (
+				D3FEB5DA21EE08D50075F188 /* Model */,
+				D3570D6921EB220A00E795F3 /* Info.plist */,
+				D3570D5D21EB220A00E795F3 /* AppDelegate.swift */,
+				D3FEB5D421EE05B10075F188 /* BattleViewController.swift */,
+				D3570D5F21EB220A00E795F3 /* LobbyViewController.swift */,
+				D3570D6421EB220A00E795F3 /* Assets.xcassets */,
+				D3570D6621EB220A00E795F3 /* LaunchScreen.storyboard */,
+				D3570D6121EB220A00E795F3 /* Main.storyboard */,
+			);
+			path = Kobashun_RPGApp;
+			sourceTree = "<group>";
+		};
+		D3570D7121EB220B00E795F3 /* Kobashun_RPGAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3570D7221EB220B00E795F3 /* Kobashun_RPGAppTests.swift */,
+				D3570D7421EB220B00E795F3 /* Info.plist */,
+			);
+			path = Kobashun_RPGAppTests;
+			sourceTree = "<group>";
+		};
+		D3570D7C21EB220B00E795F3 /* Kobashun_RPGAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3570D7D21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift */,
+				D3570D7F21EB220B00E795F3 /* Info.plist */,
+			);
+			path = Kobashun_RPGAppUITests;
+			sourceTree = "<group>";
+		};
+		D3FEB5DA21EE08D50075F188 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D350984E220180D3004B5C35 /* Player.swift */,
+				D3FEB5D821EE08420075F188 /* Enemy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3570D5921EB220A00E795F3 /* Kobashun_RPGApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3570D8221EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGApp" */;
+			buildPhases = (
+				D3570D5621EB220A00E795F3 /* Sources */,
+				D3570D5721EB220A00E795F3 /* Frameworks */,
+				D3570D5821EB220A00E795F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kobashun_RPGApp;
+			productName = Kobashun_RPGApp;
+			productReference = D3570D5A21EB220A00E795F3 /* Kobashun_RPGApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3570D6D21EB220B00E795F3 /* Kobashun_RPGAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3570D8521EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGAppTests" */;
+			buildPhases = (
+				D3570D6A21EB220B00E795F3 /* Sources */,
+				D3570D6B21EB220B00E795F3 /* Frameworks */,
+				D3570D6C21EB220B00E795F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3570D7021EB220B00E795F3 /* PBXTargetDependency */,
+			);
+			name = Kobashun_RPGAppTests;
+			productName = Kobashun_RPGAppTests;
+			productReference = D3570D6E21EB220B00E795F3 /* Kobashun_RPGAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3570D7821EB220B00E795F3 /* Kobashun_RPGAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3570D8821EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGAppUITests" */;
+			buildPhases = (
+				D3570D7521EB220B00E795F3 /* Sources */,
+				D3570D7621EB220B00E795F3 /* Frameworks */,
+				D3570D7721EB220B00E795F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3570D7B21EB220B00E795F3 /* PBXTargetDependency */,
+			);
+			name = Kobashun_RPGAppUITests;
+			productName = Kobashun_RPGAppUITests;
+			productReference = D3570D7921EB220B00E795F3 /* Kobashun_RPGAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3570D5221EB220A00E795F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fumiya Tanaka";
+				TargetAttributes = {
+					D3570D5921EB220A00E795F3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D3570D6D21EB220B00E795F3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D3570D5921EB220A00E795F3;
+					};
+					D3570D7821EB220B00E795F3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D3570D5921EB220A00E795F3;
+					};
+				};
+			};
+			buildConfigurationList = D3570D5521EB220A00E795F3 /* Build configuration list for PBXProject "Kobashun_RPGApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3570D5121EB220A00E795F3;
+			productRefGroup = D3570D5B21EB220A00E795F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3570D5921EB220A00E795F3 /* Kobashun_RPGApp */,
+				D3570D6D21EB220B00E795F3 /* Kobashun_RPGAppTests */,
+				D3570D7821EB220B00E795F3 /* Kobashun_RPGAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3570D5821EB220A00E795F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3570D6821EB220A00E795F3 /* LaunchScreen.storyboard in Resources */,
+				D3570D6521EB220A00E795F3 /* Assets.xcassets in Resources */,
+				D3570D6321EB220A00E795F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D6C21EB220B00E795F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D7721EB220B00E795F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3570D5621EB220A00E795F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FEB5D521EE05B10075F188 /* BattleViewController.swift in Sources */,
+				D3FEB5D921EE08420075F188 /* Enemy.swift in Sources */,
+				D3570D6021EB220A00E795F3 /* LobbyViewController.swift in Sources */,
+				D350984F220180D3004B5C35 /* Player.swift in Sources */,
+				D3570D5E21EB220A00E795F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D6A21EB220B00E795F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3570D7321EB220B00E795F3 /* Kobashun_RPGAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3570D7521EB220B00E795F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3570D7E21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3570D7021EB220B00E795F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3570D5921EB220A00E795F3 /* Kobashun_RPGApp */;
+			targetProxy = D3570D6F21EB220B00E795F3 /* PBXContainerItemProxy */;
+		};
+		D3570D7B21EB220B00E795F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3570D5921EB220A00E795F3 /* Kobashun_RPGApp */;
+			targetProxy = D3570D7A21EB220B00E795F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3570D6121EB220A00E795F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3570D6221EB220A00E795F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3570D6621EB220A00E795F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3570D6721EB220A00E795F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3570D8021EB220B00E795F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3570D8121EB220B00E795F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3570D8321EB220B00E795F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3570D8421EB220B00E795F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3570D8621EB220B00E795F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kobashun_RPGApp.app/Kobashun_RPGApp";
+			};
+			name = Debug;
+		};
+		D3570D8721EB220B00E795F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kobashun_RPGApp.app/Kobashun_RPGApp";
+			};
+			name = Release;
+		};
+		D3570D8921EB220B00E795F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kobashun_RPGApp;
+			};
+			name = Debug;
+		};
+		D3570D8A21EB220B00E795F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
+				INFOPLIST_FILE = Kobashun_RPGAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fumiya-Tanaka.Kobashun-RPGAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kobashun_RPGApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3570D5521EB220A00E795F3 /* Build configuration list for PBXProject "Kobashun_RPGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3570D8021EB220B00E795F3 /* Debug */,
+				D3570D8121EB220B00E795F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3570D8221EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3570D8321EB220B00E795F3 /* Debug */,
+				D3570D8421EB220B00E795F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3570D8521EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3570D8621EB220B00E795F3 /* Debug */,
+				D3570D8721EB220B00E795F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3570D8821EB220B00E795F3 /* Build configuration list for PBXNativeTarget "Kobashun_RPGAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3570D8921EB220B00E795F3 /* Debug */,
+				D3570D8A21EB220B00E795F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3570D5221EB220A00E795F3 /* Project object */;
+}
