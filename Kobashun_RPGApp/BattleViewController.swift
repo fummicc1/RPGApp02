@@ -58,6 +58,7 @@ class BattleViewController: UIViewController {
             // OKボタンがタップされたら次の動きを行いたい。
             self.turnNumber += 1
             self.judgeTurn()
+            self.judgeFinishGame()
         }))
         present(alert, animated: true, completion: nil)
     }
@@ -78,9 +79,9 @@ class BattleViewController: UIViewController {
         if enemy.commandNumber % 2 == 0 {
             if player.commandNumber == 0 {
                 player.hp -= 1
-                print("攻撃失敗")
+                print("敵の攻撃成功")
             } else {
-                print("攻撃失敗")
+                print("敵の攻撃失敗")
             }
             showAlert(title: "アタック!", message: "敵が攻撃してきた。")
         } else {

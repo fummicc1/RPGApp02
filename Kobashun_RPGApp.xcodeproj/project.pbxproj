@@ -15,6 +15,8 @@
 		D3570D6821EB220A00E795F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3570D6621EB220A00E795F3 /* LaunchScreen.storyboard */; };
 		D3570D7321EB220B00E795F3 /* Kobashun_RPGAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D7221EB220B00E795F3 /* Kobashun_RPGAppTests.swift */; };
 		D3570D7E21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3570D7D21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift */; };
+		D3837845220D2C7700640F14 /* BattleViewController+FinishBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3837844220D2C7700640F14 /* BattleViewController+FinishBattle.swift */; };
+		D3837847220D2E7200640F14 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3837846220D2E7200640F14 /* ResultViewController.swift */; };
 		D3FEB5D521EE05B10075F188 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEB5D421EE05B10075F188 /* BattleViewController.swift */; };
 		D3FEB5D921EE08420075F188 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEB5D821EE08420075F188 /* Enemy.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		D3570D7921EB220B00E795F3 /* Kobashun_RPGAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kobashun_RPGAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3570D7D21EB220B00E795F3 /* Kobashun_RPGAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kobashun_RPGAppUITests.swift; sourceTree = "<group>"; };
 		D3570D7F21EB220B00E795F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3837844220D2C7700640F14 /* BattleViewController+FinishBattle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BattleViewController+FinishBattle.swift"; sourceTree = "<group>"; };
+		D3837846220D2E7200640F14 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D3FEB5D421EE05B10075F188 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 		D3FEB5D821EE08420075F188 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,14 +107,16 @@
 		D3570D5C21EB220A00E795F3 /* Kobashun_RPGApp */ = {
 			isa = PBXGroup;
 			children = (
-				D3FEB5DA21EE08D50075F188 /* Model */,
 				D3570D6921EB220A00E795F3 /* Info.plist */,
 				D3570D5D21EB220A00E795F3 /* AppDelegate.swift */,
 				D3FEB5D421EE05B10075F188 /* BattleViewController.swift */,
+				D3837844220D2C7700640F14 /* BattleViewController+FinishBattle.swift */,
 				D3570D5F21EB220A00E795F3 /* LobbyViewController.swift */,
+				D3837846220D2E7200640F14 /* ResultViewController.swift */,
 				D3570D6421EB220A00E795F3 /* Assets.xcassets */,
 				D3570D6621EB220A00E795F3 /* LaunchScreen.storyboard */,
 				D3570D6121EB220A00E795F3 /* Main.storyboard */,
+				D3FEB5DA21EE08D50075F188 /* Model */,
 			);
 			path = Kobashun_RPGApp;
 			sourceTree = "<group>";
@@ -275,7 +281,9 @@
 			files = (
 				D3FEB5D521EE05B10075F188 /* BattleViewController.swift in Sources */,
 				D3FEB5D921EE08420075F188 /* Enemy.swift in Sources */,
+				D3837847220D2E7200640F14 /* ResultViewController.swift in Sources */,
 				D3570D6021EB220A00E795F3 /* LobbyViewController.swift in Sources */,
+				D3837845220D2C7700640F14 /* BattleViewController+FinishBattle.swift in Sources */,
 				D350984F220180D3004B5C35 /* Player.swift in Sources */,
 				D3570D5E21EB220A00E795F3 /* AppDelegate.swift in Sources */,
 			);
